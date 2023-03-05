@@ -1,4 +1,4 @@
-package boj;
+package boj.codingStudy;
 
 import java.io.BufferedReader;
 import java.io.IOException;
@@ -16,7 +16,7 @@ public class Q11399 {
         // 이렇게 가게 된다.
 
         // 필요한 시간의 합을 최소로 만드는 방식을 고안해 보자.
-        // 그냥 이거 SJT 하면 되는거아니냐고? ㅋㅋㅋㅋㅋㅋㅋ
+        // 그냥 이거 SJF 하면 되는거아니냐고? ㅋㅋㅋㅋㅋㅋㅋ
 
         int[] times = makeTimeList(br,n);
         Arrays.sort(times);
